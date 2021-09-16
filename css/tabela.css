@@ -1,0 +1,26 @@
+.table {
+    text-align: left;
+    border-collapse: collapse;
+    user-select: none;
+}
+
+.table thead {
+    background-color: #343a40;
+    color: #ccc;
+    height: 50px;
+}
+
+.table thead th,
+.table tbody td {
+    padding: 0 20px;;
+}
+.table tbody td {
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.table thead th:last-child,
+.table tbody td:last-child{
+    min-width: 250px;
+    text-align: center;
+}

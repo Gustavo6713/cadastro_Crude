@@ -1,0 +1,10 @@
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 50px; 
+}
+
+main .button{
+    align-self: flex-start;
+}
